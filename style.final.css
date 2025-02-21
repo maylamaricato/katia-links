@@ -1,0 +1,167 @@
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+}
+
+/* Estilizando a imagem para ocupar toda a largura e altura da tela */
+.imagem-inicial img {
+    width: 100%; /* A imagem ocupa 100% da largura da tela */
+    height: 86vh; /* A altura da imagem será igual à altura da tela */
+    margin-top: 0; /* Garante que a imagem fique rente ao topo */
+    margin-bottom: 17px; /* Espaço abaixo da imagem */
+}
+
+header h3 {
+    margin-bottom: 20px; /* Espaçamento abaixo do nome */
+    font-family: 'Dancing Script', cursive; /* Fonte Dancing Script */
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitulo p {
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #6bfaff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo dos links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os links */
+    position: relative;
+    width: 100%;
+    height: 0; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 265px;
+    font-weight: bold;
+}
+
+.links a {
+    text-decoration: none;
+    background-color: #33333300; /* Cor de fundo dos botões */
+    color: white;
+    padding: 50px;
+    width: 260px; /* Largura do botão */
+    text-align: center;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 30px;
+    transition: background-color 0.3s ease; /* Efeito suave na cor de fundo */
+    text-decoration: none;            /* Remove o sublinhado */
+    color: #ffffff;                   /* Cor do texto */
+    font-size: 1.5em;                 /* Tamanho da fonte */
+    display: inline-block;            /* Faz o link se comportar como um bloco */
+    padding: 12px 20px;               /* Espaçamento interno */
+    border: 2px solid #6bfaff;       /* Borda colorida, você pode mudar a cor aqui */
+    margin: 4px;
+    border-radius: 13px;              /* Borda arredondada */
+    background-color: transparent;   /* Fundo transparente */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição ao passar o mouse */
+        
+    
+}
+
+.links a:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+
+.links .contato a {
+    text-decoration: none;
+    background-color: #33333300; /* Cor de fundo dos botões */
+    color: white;
+    padding: 50px;
+    width: 150px; /* Largura do botão */
+    text-align: center;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 13px;
+    transition: background-color 0.3s ease; /* Efeito suave na cor de fundo */
+    text-decoration: none;            /* Remove o sublinhado */
+    color: #ffffff;                   /* Cor do texto */
+    display: inline-block;            /* Faz o link se comportar como um bloco */
+    padding: 10px 20px;               /* Espaçamento interno */
+    border: 2px dashed #6bfaff;       /* Borda colorida, você pode mudar a cor aqui */
+    border-radius: 50px;              /* Borda arredondada */
+    background-color: transparent;   /* Fundo transparente */
+    margin-bottom: 20px;
+
+}
+
+
+/* Quando a tela for pequena, como smartphones */
+@media (max-width: 768px) {
+    /* Alterando a imagem para uma versão diferente no mobile */
+    .imagem-inicial {
+       content: url('img/Frame\ 1.png'); /* Imagem para mobile */
+        height: 80vh; /* Ajuste da altura da imagem em dispositivos móveis */
+    }
+
+    /* Ajuste nos links para ficarem mais ajustados */
+    .links a {
+        width: 200px; /* Menor largura dos links em dispositivos móveis */
+        font-size: 14px; /* Ajuste do tamanho da fonte */
+    }
+}
+
+/* Quando a tela for extra pequena, como em celulares muito pequenos */
+@media (max-width: 480px) {
+    /* Ajuste adicional para telas muito pequenas */
+    .imagem-inicial {
+        background-image: url('img/Frame\ 1.png'); /* Outra imagem para telas muito pequenas */
+        height: 32vh; /* A altura da imagem será menor em telas muito pequenas */
+    }
+
+    /* Links ainda menores para telas pequenas */
+    .links a {
+        width: 180px; /* Reduzir ainda mais a largura dos links */
+        font-size: 12px; /* Reduzir a fonte */
+        justify-content: center;
+    }
+}
+
+@media (max-width: 667px) {
+    /* Ajuste adicional para telas muito pequenas */
+    .imagem-inicial {
+        background-image: url('img/Frame\ 1.png'); /* Outra imagem para telas muito pequenas */
+        height: 40vh; /* A altura da imagem será menor em telas muito pequenas */
+    }
+
+    /* Links ainda menores para telas pequenas */
+    .links a {
+        width: 190px; /* Reduzir ainda mais a largura dos links */
+        font-size: 13px; /* Reduzir a fonte */
+        padding: 13x; /* Diminuir o padding dos links */
+    }
+}
+
+
+
+
+
+
