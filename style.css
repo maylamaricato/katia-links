@@ -106,7 +106,7 @@ header h3 {
     color: #ffffff;                   /* Cor do texto */
     display: inline-block;            /* Faz o link se comportar como um bloco */
     padding: 10px 20px;               /* Espaçamento interno */
-    border: 2px dashed #6bfaff;       /* Borda colorida, você pode mudar a cor aqui */
+    border: none;       /* Borda colorida, você pode mudar a cor aqui */
     border-radius: 50px;              /* Borda arredondada */
     background-color: transparent;   /* Fundo transparente */
     margin-bottom: 20px;
