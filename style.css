@@ -118,7 +118,7 @@ header h3 {
 @media (max-width: 768px) {
     /* Alterando a imagem para uma versão diferente no mobile */
     .imagem-inicial {
-       content: url('img/Frame\ 1.png'); /* Imagem para mobile */
+       content: url('Frame 1.png'); /* Imagem para mobile */
         height: 80vh; /* Ajuste da altura da imagem em dispositivos móveis */
     }
 
