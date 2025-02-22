@@ -110,6 +110,7 @@ header h3 {
     border-radius: 50px;              /* Borda arredondada */
     background-color: transparent;   /* Fundo transparente */
     margin-bottom: 20px;
+    box-shadow: 0 0 5px #6bfaff, 0 0 6px #6bfaff, 0 0 10px #6bfaff, 0 0 10px #6bfaff, 0 0 20px  #6bfaff;
 
 }
 
